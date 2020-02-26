@@ -226,3 +226,13 @@ td{
   top:2700px;
   right: 577px;
 }
+
+a:link{
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+}
+
+a:hover{
+  text-decoration: underline;
+  color: hsl(256, 26%, 20%);
+}
