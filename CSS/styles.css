@@ -1,0 +1,227 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+.div1 ,.table1 ,.div2 ,.div2 img ,.div21 ,.div3 ,.div3 hr ,.div4 ,.div5 ,.div5 hr ,.div5 .p1 ,.div5 span ,.div5 div ,.div5 p,.div6 .btn1 ,.div6 img ,.div7 ,.div7 .img71 ,.attribution{
+  position: absolute;
+}
+
+body ,.div1 ,.div2 ,.div5 ,.div6 ,.div7{
+  width: 1090px;
+}
+
+body{
+  color: hsl(256, 26%, 20%);
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  z-index: 2;
+}
+
+.div1{
+  background-color: white;
+  padding: 3px 175px 0px;
+  height: 75px ;
+  z-index: 2;
+}
+
+.logo{
+  padding: 25px 502.5px 30px 0px;
+}
+
+.table1{
+  margin-top: 10px ;
+  display: inline;
+}
+
+td{
+  padding: 10px 15px;
+}
+
+.tdt1 , .tdt11{
+  color: hsl(216, 30%, 68%);
+}
+
+.tdt11{
+  padding:10px 31px 10px 15px;
+}
+
+.tdt1:hover , .tdt11:hover{
+  color: hsl(256, 26%, 20%);
+}
+
+.tdt12{
+  padding: 10px 31px;
+  border: 2px solid;
+}
+
+.tdt12:hover{
+  color: white;
+  background-color: hsl(256, 26%, 20%);
+}
+
+.div2{
+  top:70px;
+  color: white;
+  height: 605px;
+  padding: 0px 175px;
+  z-index: 0;
+  background-color: hsl(256, 26%, 20%);
+}
+
+.div2 img{
+  left:725px;
+  top: 110px;
+}
+
+.div21{
+  height: 400px;
+  width: 545px;
+  top: 165px;
+}
+
+.p1{
+  font-size: 69px;
+  line-height: 60px;
+  font-family: 'DM Serif Display' ;
+}
+
+.p2{
+  line-height: 30px;
+}
+
+.btn1{
+  background-color: hsl(256, 26%, 20%);
+  border: 1px solid white;
+  height: 42.16px;
+  width: 154px;
+  color: white;
+}
+
+.btn1:hover{
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+}
+
+.div3{
+  left:1004px;
+  width: 436px;
+  height: 593px;
+  z-index: 1;
+}
+
+.div3 hr{
+  width: 150px;
+  color: white;
+  top:179px;
+  right: 1115px;
+  border: solid 0.5px;
+}
+
+.div4{
+  top:505px;
+  z-index:3;
+}
+
+.div5{
+  top:910px;
+  left: 175px;
+  height: 750px;
+  z-index: 4;
+}
+
+.div5 hr{
+  width: 150px;
+  border-color: hsl(216, 30%, 68%);
+  top:80px;
+  border: solid 0.5px;
+}
+
+.div5 .p1{
+  font-size: 69px;
+  line-height: 60px;
+  font-family: 'DM Serif Display' ;
+  top:146px;
+  color: black;
+}
+
+.div5 div{
+  position: relative;
+  display: inline-block;
+  width: 360.66px;
+  height: 260px;
+  top: 346px;
+}
+
+.div5 span{
+  font-family: 'DM Serif Display' ;
+  font-size: 27px;
+  top:117px;
+}
+
+.div5 p{
+  color: hsl(273, 4%, 51%);
+  top:170px;
+  line-height: 30px;
+  letter-spacing: 0.01px;
+}
+
+.div6{
+  position: relative;
+  top:1720px;
+  height: 250px;
+  margin: 0px 175px;
+  color: white;
+  background-color: hsl(256, 26%, 20%);
+}
+
+.div6 img{
+  left:656px;
+  z-index: 1;
+}
+.div6 .p2{
+  font-size: 54px;
+  line-height: 60px;
+  font-family: 'DM Serif Display' ;
+  padding: 65px;
+}
+
+.div6 .btn1{
+  right: 80px;
+  top:104px;
+}
+
+.div7{
+  top: 2125px;
+  height: 400px;
+  margin:0px 175px;
+}
+
+.div7 .img71{
+  right:737px;
+}
+
+.div7 hr{
+  margin:50px 0px 47px;
+  border: 0.25px solid hsl(216, 30%, 68%);
+}
+
+.div7 th{
+  color:hsl(273, 4%, 51%);
+  padding-bottom: 25px;
+  text-align: left;
+}
+
+.div7 td{
+  padding : 7px 7px 7px 0px;
+  text-align: left;
+
+  font-weight: 700;
+  width: 250px;
+  color: hsl(256, 26%, 20%);
+}
+
+.attribution{
+  top:2590px;
+  right: 577px;
+}
