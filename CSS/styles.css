@@ -3,7 +3,13 @@
   padding: 0px;
 
 }
-.div1 ,.table1 ,.div2 ,.div2 img ,.div21 ,.div3 ,.div3 hr ,.div4 ,.div5 ,.div5 hr ,.div5 .p1 ,.div5 span ,.div5 div ,.div5 p,.div6 .btn1 ,.div6 img ,.div7 ,.div7 .img71 ,.attribution{
+.all{
+  margin: 0px auto;
+  position: absolute;
+  display: block;
+
+}
+.div1 ,.table1 ,.div2 ,.div2 img ,.div21 ,.div3 ,.div3 hr ,.div4 ,.div5 ,.div5 hr ,.div5 .p1 ,.div5 h1 ,.div5 div ,.div5 p,.div6 .btn1 ,.div6 .DesktopPattern2 ,.div7 ,.div7 .DesktopPattern4 ,.attribution{
   position: absolute;
 }
 
@@ -16,6 +22,7 @@ body{
   font-size: 16px;
   font-family: 'Karla', sans-serif;
   z-index: 2;
+
 }
 
 .div1{
@@ -56,6 +63,7 @@ td{
 }
 
 .tdt12:hover{
+  cursor: grab;
   color: white;
   background-color: hsl(256, 26%, 20%);
 }
@@ -74,7 +82,7 @@ td{
   background-color: hsl(256, 26%, 20%);
 }
 
-.div2 img{
+.div2 .desktopIntro{
   left:725px;
   top: 110px;
 }
@@ -89,6 +97,7 @@ td{
   font-size: 69px;
   line-height: 60px;
   font-family: 'DM Serif Display' ;
+  padding-bottom: 38px;
 }
 
 .p2{
@@ -101,9 +110,10 @@ td{
   height: 42.16px;
   width: 154px;
   color: white;
+   cursor: grab;
 }
 
-.btn1:hover{
+.btn1:hover  {
   background-color: white;
   color: hsl(256, 26%, 20%);
 }
@@ -158,7 +168,7 @@ td{
   top: 300px;
 }
 
-.div5 span{
+.div5 h1{
   font-family: 'DM Serif Display' ;
   font-size: 27px;
   top:117px;
@@ -180,9 +190,9 @@ td{
   background-color: hsl(256, 26%, 20%);
 }
 
-.div6 img{
+.div6 .DesktopPattern2{
   left:656px;
-  z-index: 1;
+
 }
 .div6 .p2{
   font-size: 54px;
@@ -192,8 +202,13 @@ td{
 }
 
 .div6 .btn1{
+  background-color: transparent ;
   right: 80px;
   top:104px;
+}
+.div6 .btn1:hover{
+  background-color: white;
+  color: hsl(256, 26%, 20%);
 }
 
 .div7{
@@ -203,12 +218,23 @@ td{
   margin:0px 175px;
 }
 
-.div7 .img71{
+.div7 .DesktopPattern4{
   right:737px;
+}
+.div7logo{
+  position: relative;
+  margin-top: 65px
+}
+.div72{
+  position: absolute;
+  top: 65px;
+  width: 138px;
+  display: inline;
+  margin-left: 838px;
 }
 
 .div7 hr{
-  margin:50px 0px 47px;
+  margin:35px 0px 47px;
   border: 0.25px solid hsl(216, 30%, 68%);
 }
 
@@ -222,9 +248,10 @@ td{
   padding : 7px 7px 7px 0px;
   text-align: left;
   font-weight: 700;
-  width: 250px;
   color: hsl(256, 26%, 20%);
+  width: 250px;
 }
+
 
 .attribution{
   top:2690px;
@@ -239,4 +266,322 @@ a:link{
 a:hover{
   text-decoration: underline;
   color: hsl(256, 26%, 20%);
+}
+
+.imgMobileHamburger , .MobileIntro , .MobilePattern1 , .MobilePattern2 , .MobilePattern3 , .MobilePattern4 ,.div73  {
+  display: none;
+}
+@media only screen and (max-width: 375px) {
+  .table1 , .div2 .desktopIntro ,.div3 .DesktopPattern1 , .DesktopPattern2 , .div4 , .div5 hr , .DesktopPattern3 , .DesktopPattern4, .div7 table{
+      display: none;
+  }
+
+  *{
+
+      margin: 0px;
+      padding: 0px;
+
+  }
+
+  body{
+  color: hsl(256, 26%, 20%);
+  width: 100vw;
+  z-index: 0;
+}
+
+.div1{
+  position: relative;
+  background-color: white;
+  width: 100vw;
+  height: 75px ;
+  padding: 0px 25px;
+  box-sizing : border-box;
+
+}
+
+.logo{
+  display: inline;
+  padding: 28.5px 0px 28.5px 0px;
+  float: left!important;
+}
+
+.imgMobileHamburger{
+display: inline;
+left:100px;
+padding: 21.5px 0px;
+float: right!important;
+}
+
+.div2{
+  position: relative;
+  height:951px;
+  width: 100vw;
+  padding: 0px;
+  top: 0px;
+
+}
+
+.MobileIntro{
+  position: relative;
+  display: inline;
+  width: 100vw;
+}
+.div21{
+  position: relative;
+  display: inline;
+  height: 500px;
+  width: 100vw;
+  top : 451px;
+  text-align: center;
+}
+.MobilePattern3{
+  display: block;
+  position: relative;
+  top:800px;
+  z-index: -1;
+  left: 251px;
+}
+
+.MobilePattern1 {
+  display: block;
+  position: relative;
+  top:451px;
+  z-index: -1;
+}
+
+.p1{
+  font-size: 46px;
+  line-height: 49px;
+  font-family: 'DM Serif Display' ;
+  box-sizing: border-box;
+  padding: 93px 25px 15px 25px;
+  z-index: 0;
+}
+
+.p2{
+  line-height: 26px;
+  padding: 0px 25px ;
+  z-index: 0;
+}
+
+.btn1{
+  position: absolute;
+  background-color: hsl(256, 26%, 20%);
+  border: 1px solid white;
+  height: 10px + 42.16px;
+  width: 154px;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  left: calc(50vw - 76px);
+}
+.btn1:active{
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+}
+
+.div3{
+  position: relative;
+  width: 100vw;
+  top:0px;
+  left:0px;
+  height: 180px;
+}
+
+.div3 hr{
+  position: relative;
+  margin: 0px auto;
+  width: 150px;
+  color: black;
+  top:140px;
+  right: 0px;
+  border: solid 0.25px black;
+}
+
+.div5{
+  position: relative;
+  width: 100vw;
+  top:0px;
+  left: 0px;
+  height: 1000px;
+  z-index: 0;
+  box-sizing: border-box;
+  padding: 0px 25px;
+}
+
+.div5 .p1{
+  position: relative;
+  text-align: center;
+  font-size: 46px;
+  padding: 0px;
+  margin: 0px auto 80px auto;
+  line-height: 49px;
+  font-family: 'DM Serif Display' ;
+  top:0px;
+  color: black;
+}
+
+.div5 div{
+  position: relative;
+  display: block;
+  width: 325px;
+  height: 260px;
+  top: 0px;
+  margin-bottom: 50px;
+}
+
+.div5 div img{
+position: relative;
+margin: 0px auto;
+left: calc((100vw - 50px - 86px )/2);
+}
+
+.div5 h1{
+  position: relative;
+  margin: 0px auto;
+  text-align: center;
+  font-family: 'DM Serif Display' ;
+  font-size: 27px;
+  top: 30px;
+
+}
+
+.div5 p{
+  color: hsl(273, 4%, 51%);
+  top:170px;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 0.01px;
+}
+
+.div6{
+  position: relative;
+  width: calc(100vw - 50px);
+  margin: 0 auto ;
+
+  top:150px;
+  height: 350px;
+  color: white;
+  background-color: hsl(256, 26%, 20%);
+
+}
+
+.div6 .MobilePattern2{
+  position: absolute;
+  display: block;
+  left:calc(100vw - 50px - 176px);
+  z-index: 0;
+}
+
+
+.div6 .p2{
+  position: absolute;
+  top:70px;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: 'DM Serif Display' ;
+  padding: 0px 50px;
+  text-align: center;
+  z-index: 1;
+}
+
+.div6 .btn1{
+  position: absolute;
+  margin: 0px;
+  background-color: transparent ;
+
+  left: calc((100vw - 50px - 159px)/2 + 2.5px);
+  right: calc((100vw - 50px - 159px)/2 + 2.5px);
+  top:230px;
+
+}
+
+
+.div7{
+  position: relative;
+  background-color: hsl(0, 0%, 98%);
+  top: 300px;
+  width: 100vw;
+  height: 1100px;
+  margin:0px ;
+
+}
+
+.div7 .MobilePattern4{
+  position: absolute;
+  display: block;
+  z-index: 0
+}
+
+.div7logo{
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  top:  87px;
+  z-index: 1;
+}
+.div72{
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  top:120px;
+}
+
+.div7 hr{
+  position: relative;
+  display: block;
+  margin:0px auto;
+  border: 0.25px solid hsl(216, 30%, 68%);
+  width: 325px;
+  top:160px;
+}
+
+
+.div73{
+  display: block;
+  position: relative;
+  top: 155px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.div73 p{
+
+  color:hsl(273, 4%, 51%);
+  padding-bottom:25px;
+  padding-top: 45px;
+}
+
+.div73 a{
+
+    line-height: 30px;
+    font-weight: 700;
+    color: hsl(256, 26%, 20%);
+}
+
+.div73 a:link{
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+}
+
+.div73 a:active{
+  text-decoration: underline;
+  color: hsl(256, 26%, 20%);
+}
+
+.attribution{
+  position: relative;
+  right: 0px;
+  margin: 0px auto;
+  top:250px;
+  width: 100vw;
+  height: 10px;
+
+}
+
+
+
+
+
+
 }
